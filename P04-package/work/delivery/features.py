@@ -19,5 +19,6 @@ def describe_order(order):
 
 
 def average_speed_kmph(distance_km, delivery_min):
-    "Average speed of a delivery, in kilometres per hour."
-    return distance_km / (delivery_min / 60)
+    speed = (distance_km / delivery_min) * 60
+    # TODO: return the speed
+    return speed
